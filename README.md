@@ -1,16 +1,38 @@
-# nutriscan
 
-A new Flutter project.
+# NutriScan - A Fitness and Nutrition AI Application
+NutriScan is a mobile app that scans food items to calculate their nutritional content and provides personalized diet recommendations.
 
-## Getting Started
+## Features  
+- Personalized Nutrition Assistant: Offers tailored advice and answers user questions regarding nutrition.
+- Nutrient Scanning: The app identifies food and analyzes its nutritional content by scanning it.
+- Diet Recommendations: Suggests foods and supplement nutrients to balance the user's diet.
 
-This project is a starting point for a Flutter application.
+## Run Locally  
+Clone the project  
 
-A few resources to get you started if this is your first Flutter project:
+~~~bash  
+  git clone https://github.com/mikeyolang/nutriscan.git
+~~~
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Go to the project directory  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+~~~bash  
+  cd nutriscan
+~~~
+
+Install dependencies  
+
+~~~bash  
+  flutter pub get
+~~~
+
+Start the server  
+
+~~~bash  
+  flutter run
+~~~  
+
+## Tech Stack  
+**Client:** Flutter
+
+**Server:** Python, Gemini, MySQL, REST API
